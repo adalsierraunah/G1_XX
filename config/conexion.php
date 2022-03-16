@@ -4,7 +4,7 @@
 
         protected function Conexion(){
             try {
-				$conectar = $this->dbh = new PDO("mysql:host=52.152.236.67;dbname=g1_xx","G1_XX","Admin12345");
+				$conectar = $this->dbh = new PDO("mysql:host=52.152.236.67;dbname=g1_xx","G1_YY","Admin12345");
 				return $conectar;	
 			} catch (Exception $e) {
 				print "¡Error BD!: " . $e->getMessage() . "<br/>";
